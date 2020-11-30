@@ -1,0 +1,34 @@
+.panelContainer {
+    height: auto;
+    padding: inherit;
+}
+
+.contentContainer {
+    display: inline-flex;
+    width: 14em;
+    height: 5em;
+    padding: inherit;
+    justify-content: center;
+}
+
+.contentContainer, .content {
+    margin: auto;
+    background-color: #f8fafc;
+    color: #000;
+}
+
+.contentContainer:hover {
+    cursor: pointer;
+    background-color: #9c9a97;
+    color: #f8fafc;
+}
+
+.tableSettings {
+    border: solid;
+    padding: 1em;
+}
+
+.tableContent {
+    border:solid;
+    padding: 1em;
+}
